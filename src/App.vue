@@ -1,9 +1,30 @@
 <script setup>
+import Home from '@/pages/Home.vue'
+
+import { provide, ref } from 'vue';
+
+const paginaSelecionada = ref(0)
+const paginas = [{
+  nome: 'Home',
+  component: Home,
+  path: '/'
+}]
 
 </script>
 
 <template>
-  
+  <header>
+    <div>
+      <a v-for="(pagina, index) in paginas" :key="'pagina' + index" @click="paginaSelecionada = index">
+        {{ pagina.nome }}
+      </a>
+    </div>
+  </header>
+  <div>
+    <KeepAlive>
+      <component :is='paginas[paginaSelecionada].component' />
+    </KeepAlive>
+  </div>
 </template>
 
 <style scoped>
