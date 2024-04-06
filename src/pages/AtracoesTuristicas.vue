@@ -1,12 +1,12 @@
 <script setup>
-import {ref, watch} from 'vue';
+import { ref, watch } from 'vue';
 import CardAtracoes from '@/components/CardAtracoes.vue';
 
 let atracoesTuristicas = ref([])
 
 fetch('/atracoes.json')
-    .then(resposta => resposta.json())
-    .then(dados => atracoesTuristicas.value = dados)
+  .then(res => res.json())
+  .then(dados => atracoesTuristicas.value = dados)
 
 const mensagem = ref(null)
 watch(mensagem, (novaMensagem) => {
@@ -24,29 +24,28 @@ function enviarMensagem(novaMensagem) {
   <h1 class="titulo">Atrações turísticas</h1>
   <p class="total-atracoes">Total de atrações: {{ atracoesTuristicas.length }}</p>
   <div class="alert alert-danger" role="alert" v-if='mensagem'>{{ mensagem }}</div>
-  <CardAtracoes class="card-atracoes"
-      v-for='(atracaoTuristica, indice) in atracoesTuristicas'
-      @enviar-mensagem='enviarMensagem'
-      :key='`atracaoTuristica${indice}`'
-      :atracaoTuristica='atracaoTuristica'/>
+  <CardAtracoes class="card-atracoes" v-for='(atracaoTuristica, indice) in atracoesTuristicas'
+    @enviar-mensagem='enviarMensagem' :key='`atracaoTuristica${indice}`' :atracaoTuristica='atracaoTuristica' />
 </template>
 
 <style scoped>
-
-.titulo{
+.titulo {
   text-align: center;
-  margin-top: 20px;
   text-transform: uppercase;
+  font-size: 30px;
   font-weight: 700;
   color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.total-atracoes{
+
+.total-atracoes {
   text-align: center;
   text-transform: uppercase;
 }
 
-.alert{
+.alert {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -60,12 +59,11 @@ function enviarMensagem(novaMensagem) {
   width: 100%;
 }
 
-.card-atracoes{
+.card-atracoes {
   width: 80%;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  
-}
 
+}
 </style>
