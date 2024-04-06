@@ -1,38 +1,50 @@
 [
   {
-    "nome": "",
-    "descricao": "",
-    "imagem": "",
-    "visitacao": ""
+    "nome": "MAP - Mercado de Artesanato Paraibano",
+    "descricao": "O Mercado de Artesanato Paraibano - MAP é considerado  um ponto turístico 'obrigatório' para visitação de turistas na nossa Capital João Pessoa. Um prédio de estilo colonial, que foi inaugurado em 26 de janeiro de 1991, composto de dois pavimentos, com um total de 128  lojas e 02 quiosques.",
+    "imagem": "https://turismo.joaopessoa.pb.gov.br/wp-content/uploads/2016/12/map.jpg",
+    "imagemDescricao": "Foto do Mercado de Artesanato Paraibano",
+    "endereco": "Mercado De Artesanato - Av. Sen. Ruy Carneiro, 241 - Tambaú, João Pessoa - PB, 58039-181",
+    "visitacao": "Segunda a Sábado das 9h às 19h, Domingos das 9h às 18h"
   },
   {
-    "nome": "",
-    "descricao": "",
-    "imagem": "",
-    "visitacao": ""
+    "nome": "Farol de Cabo Branco",
+    "descricao": "O Farol do Cabo Branco localiza-se sobre uma falésia na praia de Cabo Branco em João Pessoa, capital do estado brasileiro da Paraíba. A construção situa-se cerca de 800 metros ao norte da Ponta do Seixas, o ponto mais oriental do Brasil continental.",
+    "imagem": "https://as2.ftcdn.net/v2/jpg/04/37/96/11/1000_F_437961143_rrNwwrBH9zI8wVXVuP658qx51DvOmJ5T.jpg",
+    "imagemDescricao": "Foto do Farol de Cabo Branco",
+    "endereco": "Av. Cabo Branco - Cabo Branco, João Pessoa - PB, 58046-010",
+    "visitacao": "Segunda a Sexta das 9h às 20h, Domingo das 9h às 20h"
   },
   {
-    "nome": "",
-    "descricao": "",
-    "imagem": "",
-    "visitacao": ""
+    "nome": "Parque da Lagoa - Solon de Lucena",
+    "descricao": "O Parque Sólon de Lucena, também conhecido como Parque da Lagoa, é um espaço público da cidade de João Pessoa, capital do estado brasileiro da Paraíba.",
+    "imagem": "https://i0.wp.com/www.joaopessoa.pb.gov.br/wp-content/uploads/2024/03/Lagoa_foto_JulianaSantos-4-scaled.jpg?resize=1024%2C683&ssl=1",
+    "imagemDescricao": "Foto do Parque da Lagoa",
+    "endereco": "Parque Sólon de Lucena - Centro, João Pessoa - PB, 58013-130",
+    "visitacao": "Local Publico"
   },
   {
-    "nome": "",
-    "descricao": "",
-    "imagem": "",
-    "visitacao": ""
+    "nome": "Centro Cultural São Fransico",
+    "descricao": "O Centro Cultural de São de Francisco foi criado em 06 de março de 1990 e funciona no Complexo Franciscano do Convento de Santo Antônio. Tem exposições permanentes de Arte Sacra e Popular e mostras temporárias de arte contemporâneas. Sua Nave Central é disponibilizada para concertos de música e sedia o Festival Internacional de Música Clássica.",
+    "imagem": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/6a/18/44/entrada.jpg?w=1200&h=-1&s=1",
+    "imagemDescricao": "foto do Centro Cultural São Fransico",
+    "endereco": "Ladeira São Francisco, S/N - Centro, João Pessoa - PB, 58010-650",
+    "visitacao": "Terça a Sexta das 9h às 16h, Sábado e Dominho das 09h às 16h, Ingressos custando 15 reais"
   },
   {
-    "nome": "",
-    "descricao": "",
-    "imagem": "",
-    "visitacao": ""
+    "nome": "Ponta do Seixas",
+    "descricao": "A ponta do Seixas é o ponto mais oriental do continente americano e consequentemente da parte continental do Brasil. Localiza-se a leste da cidade de João Pessoa, capital do estado da Paraíba, a quatorze quilômetros do centro da cidade e a três quilômetros ao sul do bairro de Cabo Branco.",
+    "imagem": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQVXNdecPPNqy-4uDOHCdme5MJDDaBXJWUknF8xw48uanitWrLHgCZvsUFo-_xc038bd7LCK9ZO5mdQh--zrO8S_ChTqXgB77sOt95cgw",
+    "imagemDescricao": "foto da Ponta do Seixas",
+    "endereco": "Praia do Seixas",
+    "visitacao": "Local Publico"
   },
   {
-    "nome": "",
-    "descricao": "",
-    "imagem": "",
-    "visitacao": ""
+    "nome": "Hotel Globo",
+    "descricao": "O Hotel Globo está localizado na Praça de São Frei Pedro Gonçalves, no Centro Histórico de João Pessoa. Foi construído em 1929 pelo hoteleiro Henriques Siqueira (“Seu Marinheiro”). Atualmente, o edifício serve como galeria de artes. É também conhecido por apresentar uma privilegiada vista para o Rio Sanhauá e uma magnífica visão do pôr-do-sol a partir do seu jardim.",
+    "imagem": "https://www.polemicaparaiba.com.br/wp-content/uploads/2021/10/hotel-globo-scaled.jpg",
+    "imagemDescricao": "foto do Hotel Globo",
+    "endereco": "Largo de São Frei Pedro Gonçalves, Praça São Pedro Gonçalves, 7 - Varadouro, PB",
+    "visitacao": "Todos os dias das 8h às 17h"
   }
 ]

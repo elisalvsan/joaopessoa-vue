@@ -23,8 +23,16 @@ fetch('/sobreJP.json')
 </template>
 
 <style scoped>
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
-.titulo{
+.titulo {
+    text-align: center;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 700;
@@ -33,11 +41,17 @@ fetch('/sobreJP.json')
     margin-bottom: 20px;
 }
 
-.imagem-postal{
-    width: 100%;
+.imagem-postal {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
 }
 
-.topico{
+.topico {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -46,7 +60,7 @@ fetch('/sobreJP.json')
     margin-bottom: 10px;
 }
 
-.texto{
+.texto {
     font-size: 18px;
     font-weight: 400;
     color: #000000;
@@ -54,17 +68,19 @@ fetch('/sobreJP.json')
     margin-bottom: 10px;
 }
 
-p{
+p {
     text-align: justify;
     font-size: 18px;
     word-break: break-word;
 }
 
-.sobre{
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.sobre {
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
     padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
 
 }
-
 </style>
